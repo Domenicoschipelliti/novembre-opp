@@ -36,19 +36,9 @@ public class Dipendente {
 
      }
 
-     public int tuttiParametri(){
-       stipendio=stipendioBase;
-       importoOrarioStraordinario=30;
-       Livello li=Livello.OPERAIO;
-       Livello livello=Livello.IMPIEGATO;
-       Livello livello2=Livello.DIRIGENTE;
-       Livello livello3=Livello.QUADRO;
-       Dipartimento dipa=Dipartimento.PRODUZIONE;
-       Dipartimento di=Dipartimento.VENDITE;
-       Dipartimento da=Dipartimento.AMMINISTRAZIONE;
-        return tuttiParametri();
 
-     }
+
+     
 
      public Livello promuovi(){
         Livello impiegato=Livello.IMPIEGATO;
